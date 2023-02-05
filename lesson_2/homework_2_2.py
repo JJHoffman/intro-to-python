@@ -12,7 +12,7 @@ print(result_string_2)
 # Save the expression to result_value variable
 
 number = "5"
-result_value = "5 ** 3"
+result_value = int(number) ** 3
 print(number)
 print(result_value)
 
