@@ -46,12 +46,44 @@
 # if you are 16, save the message “You can buy a lottery ticket” in result_5,
 # if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
-age = None
-result_5 = None
+# age = int(input("enter your age: "))
+# if age > 17:
+#     result_5 = "you can vote"
+# elif age == 17:
+#     result_5 = "You can learn to drive"
+# elif age == 16:
+#     result_5 = "you can buy a lottery ticket"
+# else:
+#     result_5 = "you can go Trick-or-treating"
+# print(result_5)
 
 # Enter a number between 1 and 12, save this value to month variable. Find which month is it.
 # (January, February, March, April, May, June, July, August, September, October, November, December)
 # Write answer in result_month in lower case
 
-month = None
-result_month = None
+month = int(input("enter a number between 1-12 inclusive: "))
+if month == 1:
+    result_month = 'January'
+elif month == 2:
+    result_month = 'February'
+elif month == 3:
+    result_month = 'March'
+elif month == 4:
+    result_month = 'April'
+elif month == 5:
+    result_month = 'May'
+elif month == 6:
+    result_month = 'June'
+elif month == 7:
+    result_month = 'July'
+elif month == 8:
+    result_month = 'August'
+elif month == 9:
+    result_month = 'September'
+elif month == 10:
+    result_month = 'October'
+elif month == 11:
+    result_month = 'November'
+elif month == 12:
+    result_month = 'December'
+print(result_month)
